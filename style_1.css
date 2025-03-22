@@ -1471,11 +1471,3 @@ html, body {
     white-space: nowrap;
     font-style: var(--headline-7-medium-font-style);
   }
-  html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-  
