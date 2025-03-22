@@ -1,10 +1,11 @@
 html, body {
   zoom: 90%;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .home {
@@ -1457,11 +1458,12 @@ html, body {
       padding: 0;
       box-sizing: border-box;
   }
-  .home .text-wrapper-11 {
-    margin-left: -100px;
+.home .text-wrapper-11 {
     position: relative;
     width: fit-content;
-    margin-top: -1.00px;
+    margin-top: -1px;
+    padding-left: 10px;  /* ใช้ padding แทน margin-left */
+    transform: translateX(-100px);  /* ใช้วิธี transform แทน */
     font-family: var(--headline-7-medium-font-family);
     font-weight: var(--headline-7-medium-font-weight);
     color: var(--grey);
@@ -1470,4 +1472,4 @@ html, body {
     line-height: var(--headline-7-medium-line-height);
     white-space: nowrap;
     font-style: var(--headline-7-medium-font-style);
-  }
+}
