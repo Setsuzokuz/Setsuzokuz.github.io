@@ -37,7 +37,6 @@ html, body {
     top: 501px;
     left: 405px;
   }
-
   
   .home .all-right-reserved {
     position: absolute;
@@ -1383,43 +1382,6 @@ html, body {
     height: 16px;
   }
   
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:var(--paragraph-2-bold-font-weight),var(--paragraph-3-semibold-font-weight),800,var(--paragraph-3-regular-font-weight),var(--paragraph-1-regular-font-weight),var(--paragraph-2-regular-font-weight),var(--headline-8-semibold-font-weight)|Manrope:var(--headline-7-medium-font-weight),var(--headline-7-semibold-font-weight),var(--headline-6-bold-font-weight),var(--headline-2-extrabold-font-weight),800,var(--headline-4-bold-font-weight),var(--headline-3-extrabold-font-weight),var(--headline-1-extrabold-font-weight)");
-
-* {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-}
-
-a {
-  text-decoration: none;
-}
-
-.home .elements,
-.home .blog,
-.home .contscts {
-  display: inline-flex;
-  flex-direction: column;
-  height: 24px;
-  align-items: flex-start;
-  position: relative;
-  top: 0;
-}
-
   .home .elements {
     display: inline-flex;
     flex-direction: column;
@@ -1510,3 +1472,4 @@ a {
     white-space: nowrap;
     font-style: var(--headline-7-medium-font-style);
   }
+  
