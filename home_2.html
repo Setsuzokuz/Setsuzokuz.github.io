@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="style_2.css">
 
     <style>
+
       html, body {
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-        overflow-x: hidden; 
       }
 
       .title-link {
@@ -29,6 +29,7 @@
         position: relative;
         z-index: 10;
       }
+
       .solutions-link a,
       .solutions-link .text-wrapper-8 {
         text-decoration: none !important;
@@ -37,8 +38,34 @@
       .solutions, .solutions-link {
         pointer-events: auto !important;
       }
+
+      @media screen and (max-width: 768px) {
+        body {
+          font-size: 16px;
+          padding: 10px;
+        }
+
+        h1 {
+          font-size: 24px;
+          text-align: center;
+        }
+
+        .container {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          text-align: center;
+        }
+
+        .button {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          font-size: 18px;
+        }
+      }
     </style>
-  </head>
+</head>
   <body>
     <div class="home">
       <div class="div">
